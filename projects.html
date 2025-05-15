@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Katherine's Projects</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fef6ed;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffd1e3;
+      padding: 1rem 0;
+      border-radius: 2rem;
+      margin: 1.5rem auto;
+      max-width: 90%;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: flex-start; /* left align nav */
+      list-style: none;
+      gap: 3rem;
+      margin: 0;
+      padding: 0 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #c45a92;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 5rem auto;
+      padding: 0 2rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-style: italic;
+    }
+
+    /* Project buttons container */
+    .project-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+
+    /* Style for project anchor links */
+    .project-buttons a {
+      border: 2px solid #c45a92;
+      border-radius: 1.5rem;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      background-color: transparent;
+      color: #333;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+      white-space: nowrap;
+      user-select: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .project-buttons a:hover {
+      background-color: #c45a92;
+      color: #fff;
+    }
+
+    /* Publications list */
+    .publications {
+      margin-top: 4rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1rem;
+    }
+
+    .publications h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-style: italic;
+      color: #c45a92;
+      margin-bottom: 1rem;
+    }
+
+    .publications ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    .publications a {
+      color: #333;
+      text-decoration: underline;
+    }
+
+    .publications a:hover {
+      color: #c45a92;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h1>My Projects</h1>
+
+    <!-- Project buttons as links -->
+    <div class="project-buttons">
+      <a href="ideality.html">IDEALITY</a>
+      <a href="ecoHarvest.html">EcoHarvest</a>
+      <a href="sknclusive.html">Sknclusive</a>
+    </div>
+
+    <!-- My Publications -->
+    <section class="publications">
+      <h2>My Publications</h2>
+      <ul>
+        <li>
+          <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=in-match+and+out-match+game+console&btnG=#d=gs_qabs&t=1747277455733&u=%23p%3D3PVzZ9ONZxoJ" target="_blank" rel="noopener noreferrer">
+            In-Match and Out-Match Game Console Network Ping Comparison Analysis on a First-Person Arena Shooter (Case Study: East Jakarta, Indonesia)
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

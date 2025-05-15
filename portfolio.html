@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Katherine's Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fef6ed;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffd1e3;
+      padding: 1rem 0;
+      border-radius: 2rem;
+      margin: 1.5rem auto;
+      max-width: 90%;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: flex-start; /* moved nav items to left */
+      list-style: none;
+      gap: 3rem;
+      margin: 0;
+      padding: 0 1.5rem; /* added horizontal padding for left spacing */
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #c45a92;
+    }
+
+    .hero {
+      text-align: center;
+      margin-top: 8vh;
+    }
+
+    .intro {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-style: italic;
+      color: #222;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 400;
+      margin: 0.5rem 0;
+      line-height: 1.1;
+    }
+
+    .k {
+      font-family: 'Great Vibes', cursive;
+      font-size: 5.5rem;
+      color: #f182b1;
+    }
+
+    .portfolio {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      display: block;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="hero">
+    <p class="intro">welcome to</p>
+    <h1>
+      <span class="k">K</span>atherine’s<br>
+      <span class="portfolio">PORTFOLIO</span>
+    </h1>
+  </main>
+</body>
+</html>
